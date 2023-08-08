@@ -1,0 +1,374 @@
+nohup: ignoring input
+/home2/huangpeng/anaconda3/envs/py36/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:516: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+/home2/huangpeng/anaconda3/envs/py36/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:517: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+/home2/huangpeng/anaconda3/envs/py36/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:518: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+/home2/huangpeng/anaconda3/envs/py36/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:519: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+/home2/huangpeng/anaconda3/envs/py36/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:520: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+/home2/huangpeng/anaconda3/envs/py36/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:525: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  np_resource = np.dtype([("resource", np.ubyte, 1)])
+/home2/huangpeng/anaconda3/envs/py36/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:541: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+/home2/huangpeng/anaconda3/envs/py36/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:542: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+/home2/huangpeng/anaconda3/envs/py36/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:543: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+/home2/huangpeng/anaconda3/envs/py36/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:544: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+/home2/huangpeng/anaconda3/envs/py36/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:545: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+/home2/huangpeng/anaconda3/envs/py36/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:550: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  np_resource = np.dtype([("resource", np.ubyte, 1)])
+Euclidean
+loading a file...../../data/DBP15k/zh_en/ent_links_id
+loading a file...../../data/DBP15k/zh_en/test_links
+loading a file...../../data/DBP15k/zh_en/train_links
+loading a file...../../data/DBP15k/zh_en/valid_links
+train ILL num: 3000,valid ILL num: 1500, test ILL num: 10500
+train ILL | valid ILL |test ILL num: 15000
+train ILL & valid ILL &test ILL num: 0
+loading a (id2object)file...  ../../data/DBP15k/zh_en/ent_ids_1
+loading a (id2object)file...  ../../data/DBP15k/zh_en/ent_ids_2
+loading translation file from:  ../../data/DBP15k/zh_en/s_labels
+concat word embeddings
+convert words to ids
+look up desc embeddings
+get entity embedding using time 278.187
+entity embedding shape:  (38960, 300)
+Entity Alignment:Hits@1: 53.40%Hits@10: 67.40%Hits@50: 73.73%MRR: 0.5852
+train_ill test using time: 2.502
+--------------------
+Entity Alignment:Hits@1: 54.80%Hits@10: 68.07%Hits@50: 73.80%MRR: 0.5967
+valid_ill test using time: 0.098
+--------------------
+Entity Alignment:Hits@1: 45.77%Hits@10: 61.10%Hits@50: 68.42%MRR: 0.5111
+test_ill test using time: 2.576
+--------------------
+loading a file...../../data/DBP15k/ja_en/ent_links_id
+loading a file...../../data/DBP15k/ja_en/test_links
+loading a file...../../data/DBP15k/ja_en/train_links
+loading a file...../../data/DBP15k/ja_en/valid_links
+train ILL num: 3000,valid ILL num: 1500, test ILL num: 10500
+train ILL | valid ILL |test ILL num: 15000
+train ILL & valid ILL &test ILL num: 0
+loading a (id2object)file...  ../../data/DBP15k/ja_en/ent_ids_1
+loading a (id2object)file...  ../../data/DBP15k/ja_en/ent_ids_2
+loading translation file from:  ../../data/DBP15k/ja_en/s_labels
+concat word embeddings
+convert words to ids
+look up desc embeddings
+get entity embedding using time 298.727
+entity embedding shape:  (39594, 300)
+Entity Alignment:Hits@1: 66.47%Hits@10: 78.57%Hits@50: 82.40%MRR: 0.7081
+train_ill test using time: 0.404
+--------------------
+Entity Alignment:Hits@1: 69.60%Hits@10: 81.80%Hits@50: 85.13%MRR: 0.7435
+valid_ill test using time: 0.143
+--------------------
+Entity Alignment:Hits@1: 59.39%Hits@10: 75.07%Hits@50: 79.83%MRR: 0.6512
+test_ill test using time: 1.793
+--------------------
+loading a file...../../data/DBP15k/fr_en/ent_links_id
+loading a file...../../data/DBP15k/fr_en/test_links
+loading a file...../../data/DBP15k/fr_en/train_links
+loading a file...../../data/DBP15k/fr_en/valid_links
+train ILL num: 3000,valid ILL num: 1500, test ILL num: 10500
+train ILL | valid ILL |test ILL num: 15000
+train ILL & valid ILL &test ILL num: 0
+loading a (id2object)file...  ../../data/DBP15k/fr_en/ent_ids_1
+loading a (id2object)file...  ../../data/DBP15k/fr_en/ent_ids_2
+loading translation file from:  ../../data/DBP15k/fr_en/s_labels
+concat word embeddings
+convert words to ids
+look up desc embeddings
+get entity embedding using time 300.379
+entity embedding shape:  (39654, 300)
+Entity Alignment:Hits@1: 79.37%Hits@10: 86.77%Hits@50: 89.43%MRR: 0.8207
+train_ill test using time: 0.330
+--------------------
+Entity Alignment:Hits@1: 81.80%Hits@10: 88.87%Hits@50: 91.53%MRR: 0.8417
+valid_ill test using time: 0.106
+--------------------
+Entity Alignment:Hits@1: 76.36%Hits@10: 85.30%Hits@50: 88.32%MRR: 0.7959
+test_ill test using time: 1.672
+--------------------
+loading a file...../../data/SRPRS/en_de_15k_V1/ent_links_id
+loading a file...../../data/SRPRS/en_de_15k_V1/test_links
+loading a file...../../data/SRPRS/en_de_15k_V1/train_links
+loading a file...../../data/SRPRS/en_de_15k_V1/valid_links
+train ILL num: 3000,valid ILL num: 1500, test ILL num: 10500
+train ILL | valid ILL |test ILL num: 15000
+train ILL & valid ILL &test ILL num: 0
+loading a (id2object)file...  ../../data/SRPRS/en_de_15k_V1/ent_ids_1
+loading a (id2object)file...  ../../data/SRPRS/en_de_15k_V1/ent_ids_2
+concat word embeddings
+convert words to ids
+look up desc embeddings
+get entity embedding using time 285.908
+entity embedding shape:  (30000, 300)
+Entity Alignment:Hits@1: 83.63%Hits@10: 88.80%Hits@50: 90.93%MRR: 0.8562
+train_ill test using time: 0.314
+--------------------
+Entity Alignment:Hits@1: 84.07%Hits@10: 88.47%Hits@50: 90.87%MRR: 0.8587
+valid_ill test using time: 0.104
+--------------------
+Entity Alignment:Hits@1: 78.90%Hits@10: 86.21%Hits@50: 88.61%MRR: 0.8165
+test_ill test using time: 1.710
+--------------------
+loading a file...../../data/SRPRS/en_fr_15k_V1/ent_links_id
+loading a file...../../data/SRPRS/en_fr_15k_V1/test_links
+loading a file...../../data/SRPRS/en_fr_15k_V1/train_links
+loading a file...../../data/SRPRS/en_fr_15k_V1/valid_links
+train ILL num: 3000,valid ILL num: 1500, test ILL num: 10500
+train ILL | valid ILL |test ILL num: 15000
+train ILL & valid ILL &test ILL num: 0
+loading a (id2object)file...  ../../data/SRPRS/en_fr_15k_V1/ent_ids_1
+loading a (id2object)file...  ../../data/SRPRS/en_fr_15k_V1/ent_ids_2
+concat word embeddings
+convert words to ids
+look up desc embeddings
+get entity embedding using time 283.657
+entity embedding shape:  (30000, 300)
+Entity Alignment:Hits@1: 71.73%Hits@10: 76.47%Hits@50: 78.30%MRR: 0.7349
+train_ill test using time: 0.329
+--------------------
+Entity Alignment:Hits@1: 71.80%Hits@10: 76.00%Hits@50: 77.80%MRR: 0.7352
+valid_ill test using time: 0.106
+--------------------
+Entity Alignment:Hits@1: 67.36%Hits@10: 73.52%Hits@50: 75.75%MRR: 0.6971
+test_ill test using time: 1.736
+--------------------
+loading a file...../../data/SRPRS/dbp_yg_15k_V1/ent_links_id
+loading a file...../../data/SRPRS/dbp_yg_15k_V1/test_links
+loading a file...../../data/SRPRS/dbp_yg_15k_V1/train_links
+loading a file...../../data/SRPRS/dbp_yg_15k_V1/valid_links
+train ILL num: 3000,valid ILL num: 1500, test ILL num: 10500
+train ILL | valid ILL |test ILL num: 15000
+train ILL & valid ILL &test ILL num: 0
+loading a (id2object)file...  ../../data/SRPRS/dbp_yg_15k_V1/ent_ids_1
+loading a (id2object)file...  ../../data/SRPRS/dbp_yg_15k_V1/ent_ids_2
+concat word embeddings
+convert words to ids
+look up desc embeddings
+get entity embedding using time 288.595
+entity embedding shape:  (30000, 300)
+Entity Alignment:Hits@1: 91.17%Hits@10: 92.97%Hits@50: 92.97%MRR: 0.9194
+train_ill test using time: 0.404
+--------------------
+Entity Alignment:Hits@1: 93.20%Hits@10: 94.13%Hits@50: 94.33%MRR: 0.9369
+valid_ill test using time: 0.140
+--------------------
+Entity Alignment:Hits@1: 89.12%Hits@10: 92.94%Hits@50: 93.07%MRR: 0.9065
+test_ill test using time: 1.828
+--------------------
+loading a file...../../data/SRPRS/dbp_wd_15k_V1/ent_links_id
+loading a file...../../data/SRPRS/dbp_wd_15k_V1/test_links
+loading a file...../../data/SRPRS/dbp_wd_15k_V1/train_links
+loading a file...../../data/SRPRS/dbp_wd_15k_V1/valid_links
+train ILL num: 3000,valid ILL num: 1500, test ILL num: 10500
+train ILL | valid ILL |test ILL num: 15000
+train ILL & valid ILL &test ILL num: 0
+loading a (id2object)file...  ../../data/SRPRS/dbp_wd_15k_V1/ent_ids_1
+loading a (id2object)file...  ../../data/SRPRS/dbp_wd_15k_V1/ent_ids_2
+concat word embeddings
+convert words to ids
+look up desc embeddings
+get entity embedding using time 283.497
+entity embedding shape:  (30000, 300)
+Entity Alignment:Hits@1: 84.77%Hits@10: 87.20%Hits@50: 87.77%MRR: 0.8571
+train_ill test using time: 0.314
+--------------------
+Entity Alignment:Hits@1: 84.53%Hits@10: 87.80%Hits@50: 88.20%MRR: 0.8588
+valid_ill test using time: 0.142
+--------------------
+Entity Alignment:Hits@1: 81.68%Hits@10: 86.59%Hits@50: 87.45%MRR: 0.8365
+test_ill test using time: 1.468
+--------------------
+loading a file...../../data/Openea/EN_DE_15K_V1/ent_links_id
+loading a file...../../data/Openea/EN_DE_15K_V1/test_links
+loading a file...../../data/Openea/EN_DE_15K_V1/train_links
+loading a file...../../data/Openea/EN_DE_15K_V1/valid_links
+train ILL num: 3000,valid ILL num: 1500, test ILL num: 10500
+train ILL | valid ILL |test ILL num: 15000
+train ILL & valid ILL &test ILL num: 0
+loading a (id2object)file...  ../../data/Openea/EN_DE_15K_V1/ent_ids_1
+loading a (id2object)file...  ../../data/Openea/EN_DE_15K_V1/ent_ids_2
+concat word embeddings
+convert words to ids
+look up desc embeddings
+get entity embedding using time 292.000
+entity embedding shape:  (30000, 300)
+Entity Alignment:Hits@1: 79.33%Hits@10: 83.77%Hits@50: 84.97%MRR: 0.8114
+train_ill test using time: 0.355
+--------------------
+Entity Alignment:Hits@1: 83.07%Hits@10: 86.33%Hits@50: 87.53%MRR: 0.8437
+valid_ill test using time: 0.142
+--------------------
+Entity Alignment:Hits@1: 76.25%Hits@10: 82.88%Hits@50: 84.44%MRR: 0.7874
+test_ill test using time: 1.813
+--------------------
+loading a file...../../data/Openea/EN_FR_15K_V1/ent_links_id
+loading a file...../../data/Openea/EN_FR_15K_V1/test_links
+loading a file...../../data/Openea/EN_FR_15K_V1/train_links
+loading a file...../../data/Openea/EN_FR_15K_V1/valid_links
+train ILL num: 3000,valid ILL num: 1500, test ILL num: 10500
+train ILL | valid ILL |test ILL num: 15000
+train ILL & valid ILL &test ILL num: 0
+loading a (id2object)file...  ../../data/Openea/EN_FR_15K_V1/ent_ids_1
+loading a (id2object)file...  ../../data/Openea/EN_FR_15K_V1/ent_ids_2
+concat word embeddings
+convert words to ids
+look up desc embeddings
+get entity embedding using time 286.325
+entity embedding shape:  (30000, 300)
+Entity Alignment:Hits@1: 74.37%Hits@10: 80.60%Hits@50: 83.77%MRR: 0.7671
+train_ill test using time: 0.378
+--------------------
+Entity Alignment:Hits@1: 74.87%Hits@10: 81.40%Hits@50: 85.00%MRR: 0.7730
+valid_ill test using time: 0.142
+--------------------
+Entity Alignment:Hits@1: 69.76%Hits@10: 77.55%Hits@50: 80.41%MRR: 0.7257
+test_ill test using time: 1.722
+--------------------
+loading a file...../../data/Openea/D_W_15K_V1/ent_links_id
+loading a file...../../data/Openea/D_W_15K_V1/test_links
+loading a file...../../data/Openea/D_W_15K_V1/train_links
+loading a file...../../data/Openea/D_W_15K_V1/valid_links
+train ILL num: 3000,valid ILL num: 1500, test ILL num: 10500
+train ILL | valid ILL |test ILL num: 15000
+train ILL & valid ILL &test ILL num: 0
+loading a (id2object)file...  ../../data/Openea/D_W_15K_V1/ent_ids_1
+loading a (id2object)file...  ../../data/Openea/D_W_15K_V1/ent_ids_2
+concat word embeddings
+convert words to ids
+look up desc embeddings
+get entity embedding using time 287.416
+entity embedding shape:  (30000, 300)
+Entity Alignment:Hits@1: 0.03%Hits@10: 0.33%Hits@50: 1.67%MRR: 0.0029
+train_ill test using time: 0.321
+--------------------
+Entity Alignment:Hits@1: 0.07%Hits@10: 0.67%Hits@50: 3.33%MRR: 0.0053
+valid_ill test using time: 0.104
+--------------------
+Entity Alignment:Hits@1: 0.02%Hits@10: 0.10%Hits@50: 0.48%MRR: 0.0011
+test_ill test using time: 1.633
+--------------------
+loading a file...../../data/Openea/D_Y_15K_V1/ent_links_id
+loading a file...../../data/Openea/D_Y_15K_V1/test_links
+loading a file...../../data/Openea/D_Y_15K_V1/train_links
+loading a file...../../data/Openea/D_Y_15K_V1/valid_links
+train ILL num: 3000,valid ILL num: 1500, test ILL num: 10500
+train ILL | valid ILL |test ILL num: 15000
+train ILL & valid ILL &test ILL num: 0
+loading a (id2object)file...  ../../data/Openea/D_Y_15K_V1/ent_ids_1
+loading a (id2object)file...  ../../data/Openea/D_Y_15K_V1/ent_ids_2
+concat word embeddings
+convert words to ids
+look up desc embeddings
+get entity embedding using time 285.808
+entity embedding shape:  (30000, 300)
+Entity Alignment:Hits@1: 95.70%Hits@10: 96.80%Hits@50: 96.83%MRR: 0.9620
+train_ill test using time: 0.360
+--------------------
+Entity Alignment:Hits@1: 97.00%Hits@10: 97.67%Hits@50: 97.67%MRR: 0.9732
+valid_ill test using time: 0.105
+--------------------
+Entity Alignment:Hits@1: 94.33%Hits@10: 96.51%Hits@50: 96.66%MRR: 0.9522
+test_ill test using time: 1.870
+--------------------
+loading a file...../../data/Openea/EN_DE_100K_V1/ent_links_id
+loading a file...../../data/Openea/EN_DE_100K_V1/test_links
+loading a file...../../data/Openea/EN_DE_100K_V1/train_links
+loading a file...../../data/Openea/EN_DE_100K_V1/valid_links
+train ILL num: 20000,valid ILL num: 10000, test ILL num: 70000
+train ILL | valid ILL |test ILL num: 100000
+train ILL & valid ILL &test ILL num: 0
+loading a (id2object)file...  ../../data/Openea/EN_DE_100K_V1/ent_ids_1
+loading a (id2object)file...  ../../data/Openea/EN_DE_100K_V1/ent_ids_2
+concat word embeddings
+convert words to ids
+look up desc embeddings
+get entity embedding using time 370.887
+entity embedding shape:  (200000, 300)
+Entity Alignment:Hits@1: 71.91%Hits@10: 78.81%Hits@50: 80.47%MRR: 0.7448
+train_ill test using time: 4.172
+--------------------
+Entity Alignment:Hits@1: 73.61%Hits@10: 79.11%Hits@50: 80.49%MRR: 0.7571
+valid_ill test using time: 1.261
+--------------------
+Entity Alignment:Hits@1: 68.23%Hits@10: 76.64%Hits@50: 79.32%MRR: 0.7124
+test_ill test using time: 79.437
+--------------------
+loading a file...../../data/Openea/EN_FR_100K_V1/ent_links_id
+loading a file...../../data/Openea/EN_FR_100K_V1/test_links
+loading a file...../../data/Openea/EN_FR_100K_V1/train_links
+loading a file...../../data/Openea/EN_FR_100K_V1/valid_links
+train ILL num: 20000,valid ILL num: 10000, test ILL num: 70000
+train ILL | valid ILL |test ILL num: 100000
+train ILL & valid ILL &test ILL num: 0
+loading a (id2object)file...  ../../data/Openea/EN_FR_100K_V1/ent_ids_1
+loading a (id2object)file...  ../../data/Openea/EN_FR_100K_V1/ent_ids_2
+concat word embeddings
+convert words to ids
+look up desc embeddings
+get entity embedding using time 378.591
+entity embedding shape:  (200000, 300)
+Entity Alignment:Hits@1: 64.61%Hits@10: 72.06%Hits@50: 75.19%MRR: 0.6731
+train_ill test using time: 4.563
+--------------------
+Entity Alignment:Hits@1: 66.37%Hits@10: 73.18%Hits@50: 75.92%MRR: 0.6888
+valid_ill test using time: 1.251
+--------------------
+Entity Alignment:Hits@1: 59.64%Hits@10: 68.64%Hits@50: 72.30%MRR: 0.6284
+test_ill test using time: 78.718
+--------------------
+loading a file...../../data/Openea/D_W_100K_V1/ent_links_id
+loading a file...../../data/Openea/D_W_100K_V1/test_links
+loading a file...../../data/Openea/D_W_100K_V1/train_links
+loading a file...../../data/Openea/D_W_100K_V1/valid_links
+train ILL num: 20000,valid ILL num: 10000, test ILL num: 70000
+train ILL | valid ILL |test ILL num: 100000
+train ILL & valid ILL &test ILL num: 0
+loading a (id2object)file...  ../../data/Openea/D_W_100K_V1/ent_ids_1
+loading a (id2object)file...  ../../data/Openea/D_W_100K_V1/ent_ids_2
+concat word embeddings
+convert words to ids
+look up desc embeddings
+get entity embedding using time 365.988
+entity embedding shape:  (200000, 300)
+Entity Alignment:Hits@1: 0.01%Hits@10: 0.05%Hits@50: 0.25%MRR: 0.0005
+train_ill test using time: 4.744
+--------------------
+Entity Alignment:Hits@1: 0.01%Hits@10: 0.10%Hits@50: 0.50%MRR: 0.0010
+valid_ill test using time: 1.270
+--------------------
+Entity Alignment:Hits@1: 0.00%Hits@10: 0.01%Hits@50: 0.07%MRR: 0.0002
+test_ill test using time: 75.433
+--------------------
+loading a file...../../data/Openea/D_Y_100K_V1/ent_links_id
+loading a file...../../data/Openea/D_Y_100K_V1/test_links
+loading a file...../../data/Openea/D_Y_100K_V1/train_links
+loading a file...../../data/Openea/D_Y_100K_V1/valid_links
+train ILL num: 20000,valid ILL num: 10000, test ILL num: 70000
+train ILL | valid ILL |test ILL num: 100000
+train ILL & valid ILL &test ILL num: 0
+loading a (id2object)file...  ../../data/Openea/D_Y_100K_V1/ent_ids_1
+loading a (id2object)file...  ../../data/Openea/D_Y_100K_V1/ent_ids_2
+concat word embeddings
+convert words to ids
+look up desc embeddings
+get entity embedding using time 368.778
+entity embedding shape:  (200000, 300)
+Entity Alignment:Hits@1: 86.34%Hits@10: 92.16%Hits@50: 92.70%MRR: 0.8852
+train_ill test using time: 4.569
+--------------------
+Entity Alignment:Hits@1: 88.15%Hits@10: 92.94%Hits@50: 93.07%MRR: 0.9000
+valid_ill test using time: 1.249
+--------------------
+Entity Alignment:Hits@1: 82.61%Hits@10: 90.83%Hits@50: 92.79%MRR: 0.8551
+test_ill test using time: 78.822
+--------------------

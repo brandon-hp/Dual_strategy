@@ -1,0 +1,1047 @@
+nohup: ignoring input
+/home2/huangpeng/anaconda3/envs/py36/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:516: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+/home2/huangpeng/anaconda3/envs/py36/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:517: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+/home2/huangpeng/anaconda3/envs/py36/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:518: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+/home2/huangpeng/anaconda3/envs/py36/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:519: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+/home2/huangpeng/anaconda3/envs/py36/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:520: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+/home2/huangpeng/anaconda3/envs/py36/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:525: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  np_resource = np.dtype([("resource", np.ubyte, 1)])
+/home2/huangpeng/anaconda3/envs/py36/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:541: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+/home2/huangpeng/anaconda3/envs/py36/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:542: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+/home2/huangpeng/anaconda3/envs/py36/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:543: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+/home2/huangpeng/anaconda3/envs/py36/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:544: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+/home2/huangpeng/anaconda3/envs/py36/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:545: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+/home2/huangpeng/anaconda3/envs/py36/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:550: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  np_resource = np.dtype([("resource", np.ubyte, 1)])
+Traceback (most recent call last):
+  File "main.py", line 10, in <module>
+    from config import parser
+  File "/home2/huangpeng/syn-master/src/Initialization/config.py", line 53, in <module>
+    parser = add_flags_from_config(parser, config_dict)
+  File "../utils/train_utils.py", line 74, in add_flags_from_config
+    default, description = config_dict[param]
+ValueError: too many values to unpack (expected 2)
+nohup: ignoring input
+/home2/huangpeng/anaconda3/envs/py36/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:516: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+/home2/huangpeng/anaconda3/envs/py36/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:517: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+/home2/huangpeng/anaconda3/envs/py36/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:518: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+/home2/huangpeng/anaconda3/envs/py36/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:519: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+/home2/huangpeng/anaconda3/envs/py36/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:520: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+/home2/huangpeng/anaconda3/envs/py36/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:525: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  np_resource = np.dtype([("resource", np.ubyte, 1)])
+/home2/huangpeng/anaconda3/envs/py36/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:541: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+/home2/huangpeng/anaconda3/envs/py36/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:542: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+/home2/huangpeng/anaconda3/envs/py36/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:543: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+/home2/huangpeng/anaconda3/envs/py36/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:544: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+/home2/huangpeng/anaconda3/envs/py36/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:545: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+/home2/huangpeng/anaconda3/envs/py36/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:550: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  np_resource = np.dtype([("resource", np.ubyte, 1)])
+Traceback (most recent call last):
+  File "main.py", line 10, in <module>
+    from config import parser
+  File "/home2/huangpeng/syn-master/src/Initialization/config.py", line 53, in <module>
+    parser = add_flags_from_config(parser, config_dict)
+  File "../utils/train_utils.py", line 74, in add_flags_from_config
+    default, description = config_dict[param]
+ValueError: too many values to unpack (expected 2)
+nohup: ignoring input
+/home2/huangpeng/anaconda3/envs/py36/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:516: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+/home2/huangpeng/anaconda3/envs/py36/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:517: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+/home2/huangpeng/anaconda3/envs/py36/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:518: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+/home2/huangpeng/anaconda3/envs/py36/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:519: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+/home2/huangpeng/anaconda3/envs/py36/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:520: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+/home2/huangpeng/anaconda3/envs/py36/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:525: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  np_resource = np.dtype([("resource", np.ubyte, 1)])
+/home2/huangpeng/anaconda3/envs/py36/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:541: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+/home2/huangpeng/anaconda3/envs/py36/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:542: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+/home2/huangpeng/anaconda3/envs/py36/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:543: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+/home2/huangpeng/anaconda3/envs/py36/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:544: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+/home2/huangpeng/anaconda3/envs/py36/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:545: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+/home2/huangpeng/anaconda3/envs/py36/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:550: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  np_resource = np.dtype([("resource", np.ubyte, 1)])
+Traceback (most recent call last):
+  File "main.py", line 10, in <module>
+    from config import parser
+  File "/home2/huangpeng/syn-master/src/Initialization/config.py", line 53, in <module>
+    parser = add_flags_from_config(parser, config_dict)
+  File "../utils/train_utils.py", line 74, in add_flags_from_config
+    default, description = config_dict[param]
+ValueError: too many values to unpack (expected 2)
+nohup: ignoring input
+/home2/huangpeng/anaconda3/envs/py36/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:516: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+/home2/huangpeng/anaconda3/envs/py36/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:517: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+/home2/huangpeng/anaconda3/envs/py36/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:518: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+/home2/huangpeng/anaconda3/envs/py36/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:519: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+/home2/huangpeng/anaconda3/envs/py36/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:520: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+/home2/huangpeng/anaconda3/envs/py36/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:525: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  np_resource = np.dtype([("resource", np.ubyte, 1)])
+/home2/huangpeng/anaconda3/envs/py36/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:541: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+/home2/huangpeng/anaconda3/envs/py36/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:542: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+/home2/huangpeng/anaconda3/envs/py36/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:543: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+/home2/huangpeng/anaconda3/envs/py36/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:544: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+/home2/huangpeng/anaconda3/envs/py36/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:545: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+/home2/huangpeng/anaconda3/envs/py36/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:550: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  np_resource = np.dtype([("resource", np.ubyte, 1)])
+Traceback (most recent call last):
+  File "main.py", line 10, in <module>
+    from config import parser
+  File "/home2/huangpeng/syn-master/src/Initialization/config.py", line 53, in <module>
+    parser = add_flags_from_config(parser, config_dict)
+  File "../utils/train_utils.py", line 74, in add_flags_from_config
+    default, description = config_dict[param]
+ValueError: too many values to unpack (expected 2)
+nohup: ignoring input
+/home2/huangpeng/anaconda3/envs/py36/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:516: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+/home2/huangpeng/anaconda3/envs/py36/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:517: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+/home2/huangpeng/anaconda3/envs/py36/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:518: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+/home2/huangpeng/anaconda3/envs/py36/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:519: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+/home2/huangpeng/anaconda3/envs/py36/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:520: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+/home2/huangpeng/anaconda3/envs/py36/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:525: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  np_resource = np.dtype([("resource", np.ubyte, 1)])
+/home2/huangpeng/anaconda3/envs/py36/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:541: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+/home2/huangpeng/anaconda3/envs/py36/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:542: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+/home2/huangpeng/anaconda3/envs/py36/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:543: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+/home2/huangpeng/anaconda3/envs/py36/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:544: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+/home2/huangpeng/anaconda3/envs/py36/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:545: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+/home2/huangpeng/anaconda3/envs/py36/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:550: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  np_resource = np.dtype([("resource", np.ubyte, 1)])
+Euclidean
+loading a file...../../data/DBP15k/zh_en/ent_links_id
+loading a file...../../data/DBP15k/zh_en/test_links
+loading a file...../../data/DBP15k/zh_en/train_links
+loading a file...../../data/DBP15k/zh_en/valid_links
+train ILL num: 3000,valid ILL num: 1500, test ILL num: 10500
+train ILL | valid ILL |test ILL num: 15000
+train ILL & valid ILL &test ILL num: 0
+loading a (id2object)file...  ../../data/DBP15k/zh_en/ent_ids_1
+loading a (id2object)file...  ../../data/DBP15k/zh_en/ent_ids_2
+loading a (id2object)file...  ../../data/DBP15k/zh_en/ent_ids_1
+loading a (id2object)file...  ../../data/DBP15k/zh_en/ent_ids_2
+loading attribute triples file from:  ../../data/DBP15k/zh_en/attr_triples_1/2attr
+loading attribute triples file from:  ../../data/DBP15k/zh_en/attr_triples_2/2attr
+{'eid': 59, 'ent_name': '赛冲'}
+nohup: ignoring input
+/home2/huangpeng/anaconda3/envs/py36/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:516: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+/home2/huangpeng/anaconda3/envs/py36/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:517: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+/home2/huangpeng/anaconda3/envs/py36/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:518: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+/home2/huangpeng/anaconda3/envs/py36/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:519: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+/home2/huangpeng/anaconda3/envs/py36/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:520: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+/home2/huangpeng/anaconda3/envs/py36/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:525: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  np_resource = np.dtype([("resource", np.ubyte, 1)])
+/home2/huangpeng/anaconda3/envs/py36/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:541: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+/home2/huangpeng/anaconda3/envs/py36/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:542: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+/home2/huangpeng/anaconda3/envs/py36/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:543: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+/home2/huangpeng/anaconda3/envs/py36/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:544: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+/home2/huangpeng/anaconda3/envs/py36/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:545: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+/home2/huangpeng/anaconda3/envs/py36/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:550: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  np_resource = np.dtype([("resource", np.ubyte, 1)])
+Euclidean
+loading a file...../../data/DBP15k/zh_en/ent_links_id
+loading a file...../../data/DBP15k/zh_en/test_links
+loading a file...../../data/DBP15k/zh_en/train_links
+loading a file...../../data/DBP15k/zh_en/valid_links
+train ILL num: 3000,valid ILL num: 1500, test ILL num: 10500
+train ILL | valid ILL |test ILL num: 15000
+train ILL & valid ILL &test ILL num: 0
+loading a (id2object)file...  ../../data/DBP15k/zh_en/ent_ids_1
+loading a (id2object)file...  ../../data/DBP15k/zh_en/ent_ids_2
+loading a (id2object)file...  ../../data/DBP15k/zh_en/ent_ids_1
+loading a (id2object)file...  ../../data/DBP15k/zh_en/ent_ids_2
+loading attribute triples file from:  ../../data/DBP15k/zh_en/attr_triples_1/2attr
+loading attribute triples file from:  ../../data/DBP15k/zh_en/attr_triples_2/2attr
+/home2/huangpeng/anaconda3/envs/py36/lib/python3.6/site-packages/torch/nn/_reduction.py:44: UserWarning: size_average and reduce args will be deprecated, please use reduction='mean' instead.
+  warnings.warn(warning.format(ret))
+In Batch_TrainData_Generator, train ill num: 3000
+In Batch_TrainData_Generator, ent_ids1 num: 15000
+In Batch_TrainData_Generator, ent_ids2 num: 15000
+start training...
+Entity Alignment:Hits@1: 5.70%Hits@10: 10.98%Hits@50: 17.18%MRR: 0.0759
+test using time: 77.294
+--------------------
++++++++++++
+Epoch:  0
+get candidate using time: 129.826
+Traceback (most recent call last):
+  File "main.py", line 140, in <module>
+    train(args)
+  File "main.py", line 46, in train
+    train_n_epoch_cross(args,Model,Criterion,optimizer,Train_gene,indx2data,train_ill,valid_ill,test_ill)
+  File "/home2/huangpeng/syn-master/src/Initialization/train.py", line 25, in train_n_epoch_cross
+    epoch_loss,epoch_train_time = train_1_epoch_cross(Model,Criterion,optimizer,training_data_iter,indx2data,args.device)
+  File "/home2/huangpeng/syn-master/src/Initialization/train.py", line 54, in train_1_epoch_cross
+    neg_emb1 = entlist2emb(Model,ne1s,indx2data,device)
+  File "/home2/huangpeng/syn-master/src/Initialization/Test.py", line 25, in entlist2emb
+    batch_emb = Model(batch_token_ids,batch_mask_ids)
+  File "/home2/huangpeng/anaconda3/envs/py36/lib/python3.6/site-packages/torch/nn/modules/module.py", line 727, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "../model/Init_model.py", line 22, in forward
+    x = self.bert_model(input_ids = batch_word_list,attention_mask = attention_mask)#token_type_ids =token_type_ids
+  File "/home2/huangpeng/anaconda3/envs/py36/lib/python3.6/site-packages/torch/nn/modules/module.py", line 727, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home2/huangpeng/anaconda3/envs/py36/lib/python3.6/site-packages/transformers/modeling_bert.py", line 762, in forward
+    output_hidden_states=output_hidden_states,
+  File "/home2/huangpeng/anaconda3/envs/py36/lib/python3.6/site-packages/torch/nn/modules/module.py", line 727, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home2/huangpeng/anaconda3/envs/py36/lib/python3.6/site-packages/transformers/modeling_bert.py", line 439, in forward
+    output_attentions,
+  File "/home2/huangpeng/anaconda3/envs/py36/lib/python3.6/site-packages/torch/nn/modules/module.py", line 727, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home2/huangpeng/anaconda3/envs/py36/lib/python3.6/site-packages/transformers/modeling_bert.py", line 389, in forward
+    layer_output = self.output(intermediate_output, attention_output)
+  File "/home2/huangpeng/anaconda3/envs/py36/lib/python3.6/site-packages/torch/nn/modules/module.py", line 727, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home2/huangpeng/anaconda3/envs/py36/lib/python3.6/site-packages/transformers/modeling_bert.py", line 347, in forward
+    hidden_states = self.LayerNorm(hidden_states + input_tensor)
+  File "/home2/huangpeng/anaconda3/envs/py36/lib/python3.6/site-packages/torch/nn/modules/module.py", line 727, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home2/huangpeng/anaconda3/envs/py36/lib/python3.6/site-packages/torch/nn/modules/normalization.py", line 170, in forward
+    input, self.normalized_shape, self.weight, self.bias, self.eps)
+  File "/home2/huangpeng/anaconda3/envs/py36/lib/python3.6/site-packages/torch/nn/functional.py", line 2095, in layer_norm
+    torch.backends.cudnn.enabled)
+RuntimeError: CUDA out of memory. Tried to allocate 20.00 MiB (GPU 0; 10.92 GiB total capacity; 5.05 GiB already allocated; 14.94 MiB free; 5.22 GiB reserved in total by PyTorch)
+nohup: ignoring input
+/home2/huangpeng/anaconda3/envs/py36/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:516: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+/home2/huangpeng/anaconda3/envs/py36/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:517: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+/home2/huangpeng/anaconda3/envs/py36/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:518: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+/home2/huangpeng/anaconda3/envs/py36/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:519: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+/home2/huangpeng/anaconda3/envs/py36/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:520: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+/home2/huangpeng/anaconda3/envs/py36/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:525: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  np_resource = np.dtype([("resource", np.ubyte, 1)])
+/home2/huangpeng/anaconda3/envs/py36/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:541: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+/home2/huangpeng/anaconda3/envs/py36/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:542: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+/home2/huangpeng/anaconda3/envs/py36/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:543: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+/home2/huangpeng/anaconda3/envs/py36/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:544: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+/home2/huangpeng/anaconda3/envs/py36/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:545: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+/home2/huangpeng/anaconda3/envs/py36/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:550: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  np_resource = np.dtype([("resource", np.ubyte, 1)])
+Euclidean
+loading a file...../../data/DBP15k/zh_en/ent_links_id
+loading a file...../../data/DBP15k/zh_en/test_links
+loading a file...../../data/DBP15k/zh_en/train_links
+loading a file...../../data/DBP15k/zh_en/valid_links
+train ILL num: 3000,valid ILL num: 1500, test ILL num: 10500
+train ILL | valid ILL |test ILL num: 15000
+train ILL & valid ILL &test ILL num: 0
+loading a (id2object)file...  ../../data/DBP15k/zh_en/ent_ids_1
+loading a (id2object)file...  ../../data/DBP15k/zh_en/ent_ids_2
+loading a (id2object)file...  ../../data/DBP15k/zh_en/ent_ids_1
+loading a (id2object)file...  ../../data/DBP15k/zh_en/ent_ids_2
+loading attribute triples file from:  ../../data/DBP15k/zh_en/attr_triples_1/2attr
+loading attribute triples file from:  ../../data/DBP15k/zh_en/attr_triples_2/2attr
+/home2/huangpeng/anaconda3/envs/py36/lib/python3.6/site-packages/torch/nn/_reduction.py:44: UserWarning: size_average and reduce args will be deprecated, please use reduction='mean' instead.
+  warnings.warn(warning.format(ret))
+In Batch_TrainData_Generator, train ill num: 3000
+In Batch_TrainData_Generator, ent_ids1 num: 15000
+In Batch_TrainData_Generator, ent_ids2 num: 15000
+start training...
+Entity Alignment:Hits@1: 5.70%Hits@10: 10.98%Hits@50: 17.18%MRR: 0.0759
+test using time: 77.774
+--------------------
++++++++++++
+Epoch:  0
+get candidate using time: 133.545
+Epoch 0: loss 7482.479, using time 854.982
+Entity Alignment:Hits@1: 60.93%Hits@10: 80.33%Hits@50: 88.33%MRR: 0.6738
+test using time: 11.784
+--------------------
+Entity Alignment:Hits@1: 46.08%Hits@10: 66.10%Hits@50: 78.88%MRR: 0.5301
+test using time: 81.999
+--------------------
++++++++++++
+Epoch:  1
+get candidate using time: 133.518
+Epoch 1: loss 8486.023, using time 851.901
+Entity Alignment:Hits@1: 67.67%Hits@10: 83.00%Hits@50: 90.27%MRR: 0.7287
+test using time: 11.537
+--------------------
+Entity Alignment:Hits@1: 54.32%Hits@10: 71.93%Hits@50: 80.89%MRR: 0.6041
+test using time: 82.780
+--------------------
++++++++++++
+Epoch:  2
+get candidate using time: 134.456
+Epoch 2: loss 5601.671, using time 852.126
+Entity Alignment:Hits@1: 62.53%Hits@10: 81.60%Hits@50: 89.13%MRR: 0.6896
+test using time: 11.705
+--------------------
++++++++++++
+Epoch:  3
+get candidate using time: 134.664
+Epoch 3: loss 4755.894, using time 849.671
+Entity Alignment:Hits@1: 70.33%Hits@10: 82.93%Hits@50: 89.87%MRR: 0.7497
+test using time: 11.523
+--------------------
+Entity Alignment:Hits@1: 56.21%Hits@10: 73.99%Hits@50: 81.60%MRR: 0.6234
+test using time: 82.610
+--------------------
++++++++++++
+Epoch:  4
+get candidate using time: 134.424
+Epoch 4: loss 3880.573, using time 852.411
+Entity Alignment:Hits@1: 65.47%Hits@10: 84.27%Hits@50: 91.20%MRR: 0.7189
+test using time: 11.792
+--------------------
++++++++++++
+Epoch:  5
+get candidate using time: 135.043
+Epoch 5: loss 3554.124, using time 853.244
+Entity Alignment:Hits@1: 70.87%Hits@10: 84.40%Hits@50: 90.53%MRR: 0.7580
+test using time: 11.439
+--------------------
+Entity Alignment:Hits@1: 56.57%Hits@10: 74.89%Hits@50: 82.28%MRR: 0.6290
+test using time: 82.575
+--------------------
++++++++++++
+Epoch:  6
+get candidate using time: 134.735
+Epoch 6: loss 2575.786, using time 861.026
+Entity Alignment:Hits@1: 66.67%Hits@10: 85.27%Hits@50: 92.60%MRR: 0.7303
+test using time: 11.414
+--------------------
++++++++++++
+Epoch:  7
+get candidate using time: 135.284
+Epoch 7: loss 2631.253, using time 866.976
+Entity Alignment:Hits@1: 72.73%Hits@10: 85.53%Hits@50: 91.07%MRR: 0.7731
+test using time: 11.639
+--------------------
+Entity Alignment:Hits@1: 60.25%Hits@10: 76.45%Hits@50: 83.70%MRR: 0.6606
+test using time: 82.618
+--------------------
++++++++++++
+Epoch:  8
+get candidate using time: 135.170
+Epoch 8: loss 2360.422, using time 861.813
+Entity Alignment:Hits@1: 67.73%Hits@10: 86.27%Hits@50: 92.07%MRR: 0.7421
+test using time: 11.812
+--------------------
++++++++++++
+Epoch:  9
+get candidate using time: 135.169
+Epoch 9: loss 2266.198, using time 934.654
+Entity Alignment:Hits@1: 72.13%Hits@10: 83.67%Hits@50: 89.33%MRR: 0.7652
+test using time: 11.864
+--------------------
++++++++++++
+Epoch:  10
+get candidate using time: 135.975
+Epoch 10: loss 1811.821, using time 960.762
+Entity Alignment:Hits@1: 69.40%Hits@10: 85.47%Hits@50: 90.80%MRR: 0.7504
+test using time: 11.611
+--------------------
++++++++++++
+Epoch:  11
+get candidate using time: 135.738
+Epoch 11: loss 1785.128, using time 1077.912
+Entity Alignment:Hits@1: 73.13%Hits@10: 84.60%Hits@50: 90.73%MRR: 0.7750
+test using time: 11.653
+--------------------
+Entity Alignment:Hits@1: 63.14%Hits@10: 76.71%Hits@50: 82.86%MRR: 0.6807
+test using time: 82.919
+--------------------
++++++++++++
+Epoch:  12
+get candidate using time: 134.529
+Epoch 12: loss 1902.067, using time 974.367
+Entity Alignment:Hits@1: 69.93%Hits@10: 85.00%Hits@50: 90.47%MRR: 0.7548
+test using time: 11.548
+--------------------
++++++++++++
+Epoch:  13
+get candidate using time: 135.443
+Epoch 13: loss 1765.454, using time 977.478
+Entity Alignment:Hits@1: 74.47%Hits@10: 83.87%Hits@50: 90.07%MRR: 0.7788
+test using time: 11.741
+--------------------
+Entity Alignment:Hits@1: 64.70%Hits@10: 77.10%Hits@50: 82.98%MRR: 0.6914
+test using time: 82.761
+--------------------
++++++++++++
+Epoch:  14
+get candidate using time: 134.529
+Epoch 14: loss 1606.748, using time 988.178
+Entity Alignment:Hits@1: 74.00%Hits@10: 85.73%Hits@50: 90.07%MRR: 0.7805
+test using time: 11.859
+--------------------
+Entity Alignment:Hits@1: 64.58%Hits@10: 77.81%Hits@50: 84.40%MRR: 0.6936
+test using time: 83.669
+--------------------
++++++++++++
+Epoch:  15
+get candidate using time: 134.690
+Epoch 15: loss 1554.116, using time 987.125
+Entity Alignment:Hits@1: 75.00%Hits@10: 85.27%Hits@50: 90.47%MRR: 0.7844
+test using time: 11.550
+--------------------
+Entity Alignment:Hits@1: 65.92%Hits@10: 77.95%Hits@50: 83.63%MRR: 0.7027
+test using time: 83.232
+--------------------
++++++++++++
+Epoch:  16
+get candidate using time: 135.011
+Epoch 16: loss 1529.981, using time 971.098
+Entity Alignment:Hits@1: 74.67%Hits@10: 84.73%Hits@50: 90.33%MRR: 0.7824
+test using time: 11.857
+--------------------
++++++++++++
+Epoch:  17
+get candidate using time: 135.240
+Epoch 17: loss 1403.145, using time 955.361
+Entity Alignment:Hits@1: 74.93%Hits@10: 85.53%Hits@50: 91.33%MRR: 0.7867
+test using time: 11.799
+--------------------
+Entity Alignment:Hits@1: 65.64%Hits@10: 78.25%Hits@50: 84.20%MRR: 0.7012
+test using time: 83.445
+--------------------
++++++++++++
+Epoch:  18
+get candidate using time: 134.494
+Epoch 18: loss 1360.675, using time 943.732
+Entity Alignment:Hits@1: 73.93%Hits@10: 84.20%Hits@50: 89.20%MRR: 0.7753
+test using time: 11.486
+--------------------
++++++++++++
+Epoch:  19
+get candidate using time: 135.504
+Epoch 19: loss 1287.538, using time 968.534
+Entity Alignment:Hits@1: 74.20%Hits@10: 84.60%Hits@50: 90.13%MRR: 0.7800
+test using time: 11.849
+--------------------
++++++++++++
+Epoch:  20
+get candidate using time: 136.037
+Epoch 20: loss 1261.346, using time 982.185
+Entity Alignment:Hits@1: 74.60%Hits@10: 84.33%Hits@50: 89.80%MRR: 0.7805
+test using time: 11.677
+--------------------
++++++++++++
+Epoch:  21
+get candidate using time: 135.573
+Epoch 21: loss 1237.671, using time 995.881
+Entity Alignment:Hits@1: 74.53%Hits@10: 84.00%Hits@50: 90.33%MRR: 0.7786
+test using time: 11.858
+--------------------
+get entity embedding using time 149.148
+entity embedding shape:  (38960, 300)
+Entity Alignment:Hits@1: 94.73%Hits@10: 97.30%Hits@50: 98.73%MRR: 0.9591
+train_ill test using time: 0.313
+--------------------
+Entity Alignment:Hits@1: 74.93%Hits@10: 85.53%Hits@50: 91.33%MRR: 0.7867
+valid_ill test using time: 0.124
+--------------------
+Entity Alignment:Hits@1: 65.64%Hits@10: 78.25%Hits@50: 84.20%MRR: 0.7012
+test_ill test using time: 2.658
+--------------------
+loading a file...../../data/DBP15k/ja_en/ent_links_id
+loading a file...../../data/DBP15k/ja_en/test_links
+loading a file...../../data/DBP15k/ja_en/train_links
+loading a file...../../data/DBP15k/ja_en/valid_links
+train ILL num: 3000,valid ILL num: 1500, test ILL num: 10500
+train ILL | valid ILL |test ILL num: 15000
+train ILL & valid ILL &test ILL num: 0
+loading a (id2object)file...  ../../data/DBP15k/ja_en/ent_ids_1
+loading a (id2object)file...  ../../data/DBP15k/ja_en/ent_ids_2
+loading a (id2object)file...  ../../data/DBP15k/ja_en/ent_ids_1
+loading a (id2object)file...  ../../data/DBP15k/ja_en/ent_ids_2
+loading attribute triples file from:  ../../data/DBP15k/ja_en/attr_triples_1/2attr
+loading attribute triples file from:  ../../data/DBP15k/ja_en/attr_triples_2/2attr
+In Batch_TrainData_Generator, train ill num: 3000
+In Batch_TrainData_Generator, ent_ids1 num: 15000
+In Batch_TrainData_Generator, ent_ids2 num: 15000
+start training...
+Entity Alignment:Hits@1: 2.79%Hits@10: 7.14%Hits@50: 13.44%MRR: 0.0441
+test using time: 82.268
+--------------------
++++++++++++
+Epoch:  0
+get candidate using time: 135.724
+Epoch 0: loss 10050.185, using time 990.172
+Entity Alignment:Hits@1: 51.73%Hits@10: 68.20%Hits@50: 80.13%MRR: 0.5753
+test using time: 11.833
+--------------------
+Entity Alignment:Hits@1: 41.32%Hits@10: 57.37%Hits@50: 66.53%MRR: 0.4705
+test using time: 84.134
+--------------------
++++++++++++
+Epoch:  1
+get candidate using time: 135.244
+Epoch 1: loss 10471.263, using time 998.686
+Entity Alignment:Hits@1: 55.60%Hits@10: 67.00%Hits@50: 78.07%MRR: 0.5995
+test using time: 11.981
+--------------------
+Entity Alignment:Hits@1: 47.10%Hits@10: 59.32%Hits@50: 66.63%MRR: 0.5145
+test using time: 84.471
+--------------------
++++++++++++
+Epoch:  2
+get candidate using time: 134.759
+Epoch 2: loss 6348.087, using time 1032.131
+Entity Alignment:Hits@1: 57.07%Hits@10: 70.40%Hits@50: 79.67%MRR: 0.6179
+test using time: 12.032
+--------------------
+Entity Alignment:Hits@1: 47.39%Hits@10: 61.64%Hits@50: 69.60%MRR: 0.5234
+test using time: 84.727
+--------------------
++++++++++++
+Epoch:  3
+get candidate using time: 135.488
+Epoch 3: loss 6667.635, using time 1018.711
+Entity Alignment:Hits@1: 58.60%Hits@10: 69.87%Hits@50: 80.80%MRR: 0.6285
+test using time: 11.856
+--------------------
+Entity Alignment:Hits@1: 49.90%Hits@10: 62.22%Hits@50: 69.91%MRR: 0.5435
+test using time: 84.700
+--------------------
++++++++++++
+Epoch:  4
+get candidate using time: 135.376
+Epoch 4: loss 4635.919, using time 983.500
+Entity Alignment:Hits@1: 58.93%Hits@10: 72.67%Hits@50: 83.20%MRR: 0.6361
+test using time: 11.625
+--------------------
+Entity Alignment:Hits@1: 48.12%Hits@10: 63.02%Hits@50: 71.44%MRR: 0.5329
+test using time: 85.045
+--------------------
++++++++++++
+Epoch:  5
+get candidate using time: 135.393
+Epoch 5: loss 5377.110, using time 1011.519
+Entity Alignment:Hits@1: 60.93%Hits@10: 72.13%Hits@50: 79.80%MRR: 0.6506
+test using time: 11.892
+--------------------
+Entity Alignment:Hits@1: 53.87%Hits@10: 64.93%Hits@50: 71.48%MRR: 0.5782
+test using time: 84.497
+--------------------
++++++++++++
+Epoch:  6
+get candidate using time: 135.563
+Epoch 6: loss 4203.770, using time 930.394
+Entity Alignment:Hits@1: 59.13%Hits@10: 72.33%Hits@50: 81.40%MRR: 0.6400
+test using time: 11.968
+--------------------
++++++++++++
+Epoch:  7
+get candidate using time: 136.448
+Epoch 7: loss 4269.905, using time 930.641
+Entity Alignment:Hits@1: 62.13%Hits@10: 72.80%Hits@50: 80.00%MRR: 0.6593
+test using time: 11.768
+--------------------
+Entity Alignment:Hits@1: 55.81%Hits@10: 65.38%Hits@50: 71.10%MRR: 0.5919
+test using time: 84.683
+--------------------
++++++++++++
+Epoch:  8
+get candidate using time: 135.592
+Epoch 8: loss 3583.790, using time 924.589
+Entity Alignment:Hits@1: 58.93%Hits@10: 72.33%Hits@50: 81.60%MRR: 0.6369
+test using time: 11.800
+--------------------
++++++++++++
+Epoch:  9
+get candidate using time: 135.301
+Epoch 9: loss 3690.622, using time 934.922
+Entity Alignment:Hits@1: 62.20%Hits@10: 71.27%Hits@50: 80.27%MRR: 0.6573
+test using time: 11.499
+--------------------
++++++++++++
+Epoch:  10
+get candidate using time: 134.922
+Epoch 10: loss 3218.443, using time 929.671
+Entity Alignment:Hits@1: 60.47%Hits@10: 72.20%Hits@50: 82.67%MRR: 0.6446
+test using time: 11.596
+--------------------
++++++++++++
+Epoch:  11
+get candidate using time: 134.667
+Epoch 11: loss 3349.562, using time 923.131
+Entity Alignment:Hits@1: 60.67%Hits@10: 71.73%Hits@50: 79.93%MRR: 0.6457
+test using time: 11.575
+--------------------
+get entity embedding using time 150.034
+entity embedding shape:  (39594, 300)
+Entity Alignment:Hits@1: 81.47%Hits@10: 88.13%Hits@50: 91.90%MRR: 0.8391
+train_ill test using time: 0.339
+--------------------
+Entity Alignment:Hits@1: 62.13%Hits@10: 72.80%Hits@50: 80.00%MRR: 0.6593
+valid_ill test using time: 0.125
+--------------------
+Entity Alignment:Hits@1: 55.81%Hits@10: 65.38%Hits@50: 71.10%MRR: 0.5919
+test_ill test using time: 2.210
+--------------------
+loading a file...../../data/DBP15k/fr_en/ent_links_id
+loading a file...../../data/DBP15k/fr_en/test_links
+loading a file...../../data/DBP15k/fr_en/train_links
+loading a file...../../data/DBP15k/fr_en/valid_links
+train ILL num: 3000,valid ILL num: 1500, test ILL num: 10500
+train ILL | valid ILL |test ILL num: 15000
+train ILL & valid ILL &test ILL num: 0
+loading a (id2object)file...  ../../data/DBP15k/fr_en/ent_ids_1
+loading a (id2object)file...  ../../data/DBP15k/fr_en/ent_ids_2
+loading a (id2object)file...  ../../data/DBP15k/fr_en/ent_ids_1
+loading a (id2object)file...  ../../data/DBP15k/fr_en/ent_ids_2
+loading attribute triples file from:  ../../data/DBP15k/fr_en/attr_triples_1/2attr
+loading attribute triples file from:  ../../data/DBP15k/fr_en/attr_triples_2/2attr
+In Batch_TrainData_Generator, train ill num: 3000
+In Batch_TrainData_Generator, ent_ids1 num: 15000
+In Batch_TrainData_Generator, ent_ids2 num: 15000
+start training...
+Entity Alignment:Hits@1: 1.67%Hits@10: 4.84%Hits@50: 9.81%MRR: 0.0285
+test using time: 80.209
+--------------------
++++++++++++
+Epoch:  0
+get candidate using time: 134.403
+Epoch 0: loss 8871.083, using time 924.432
+Entity Alignment:Hits@1: 61.40%Hits@10: 75.20%Hits@50: 84.00%MRR: 0.6649
+test using time: 11.815
+--------------------
+Entity Alignment:Hits@1: 50.43%Hits@10: 66.18%Hits@50: 74.12%MRR: 0.5591
+test using time: 82.121
+--------------------
++++++++++++
+Epoch:  1
+get candidate using time: 133.447
+Epoch 1: loss 8793.881, using time 937.372
+Entity Alignment:Hits@1: 65.47%Hits@10: 75.40%Hits@50: 85.33%MRR: 0.6918
+test using time: 11.247
+--------------------
+Entity Alignment:Hits@1: 57.52%Hits@10: 69.08%Hits@50: 74.90%MRR: 0.6173
+test using time: 82.504
+--------------------
++++++++++++
+Epoch:  2
+get candidate using time: 134.386
+Epoch 2: loss 5437.839, using time 939.228
+Entity Alignment:Hits@1: 65.67%Hits@10: 79.00%Hits@50: 86.20%MRR: 0.7042
+test using time: 11.419
+--------------------
+Entity Alignment:Hits@1: 56.38%Hits@10: 70.00%Hits@50: 76.70%MRR: 0.6118
+test using time: 83.955
+--------------------
++++++++++++
+Epoch:  3
+get candidate using time: 134.895
+Epoch 3: loss 4859.207, using time 931.932
+Entity Alignment:Hits@1: 68.00%Hits@10: 77.53%Hits@50: 85.07%MRR: 0.7123
+test using time: 11.885
+--------------------
+Entity Alignment:Hits@1: 60.38%Hits@10: 70.94%Hits@50: 75.92%MRR: 0.6415
+test using time: 84.619
+--------------------
++++++++++++
+Epoch:  4
+get candidate using time: 135.098
+Epoch 4: loss 3916.496, using time 930.280
+Entity Alignment:Hits@1: 67.20%Hits@10: 78.47%Hits@50: 85.80%MRR: 0.7132
+test using time: 11.552
+--------------------
+Entity Alignment:Hits@1: 58.22%Hits@10: 70.87%Hits@50: 76.99%MRR: 0.6273
+test using time: 84.750
+--------------------
++++++++++++
+Epoch:  5
+get candidate using time: 135.591
+Epoch 5: loss 3229.289, using time 925.906
+Entity Alignment:Hits@1: 68.80%Hits@10: 77.80%Hits@50: 85.60%MRR: 0.7216
+test using time: 11.470
+--------------------
+Entity Alignment:Hits@1: 61.16%Hits@10: 71.67%Hits@50: 76.70%MRR: 0.6489
+test using time: 82.384
+--------------------
++++++++++++
+Epoch:  6
+get candidate using time: 134.195
+Epoch 6: loss 3062.046, using time 928.452
+Entity Alignment:Hits@1: 68.80%Hits@10: 78.07%Hits@50: 85.67%MRR: 0.7232
+test using time: 11.997
+--------------------
+Entity Alignment:Hits@1: 59.81%Hits@10: 71.59%Hits@50: 76.93%MRR: 0.6394
+test using time: 83.724
+--------------------
++++++++++++
+Epoch:  7
+get candidate using time: 134.570
+Epoch 7: loss 2944.100, using time 929.250
+Entity Alignment:Hits@1: 69.47%Hits@10: 78.93%Hits@50: 88.40%MRR: 0.7304
+test using time: 11.692
+--------------------
+Entity Alignment:Hits@1: 63.07%Hits@10: 72.46%Hits@50: 77.88%MRR: 0.6642
+test using time: 84.003
+--------------------
++++++++++++
+Epoch:  8
+get candidate using time: 134.459
+Epoch 8: loss 3174.526, using time 924.883
+Entity Alignment:Hits@1: 69.93%Hits@10: 78.33%Hits@50: 85.60%MRR: 0.7296
+test using time: 11.633
+--------------------
++++++++++++
+Epoch:  9
+get candidate using time: 136.018
+Epoch 9: loss 2288.288, using time 942.919
+Entity Alignment:Hits@1: 69.53%Hits@10: 79.40%Hits@50: 88.00%MRR: 0.7315
+test using time: 12.039
+--------------------
+Entity Alignment:Hits@1: 63.40%Hits@10: 72.92%Hits@50: 78.25%MRR: 0.6682
+test using time: 84.500
+--------------------
++++++++++++
+Epoch:  10
+get candidate using time: 135.113
+Epoch 10: loss 2541.102, using time 930.851
+Entity Alignment:Hits@1: 69.67%Hits@10: 78.27%Hits@50: 85.20%MRR: 0.7293
+test using time: 11.604
+--------------------
++++++++++++
+Epoch:  11
+get candidate using time: 135.364
+Epoch 11: loss 2290.287, using time 1017.864
+Entity Alignment:Hits@1: 70.27%Hits@10: 80.07%Hits@50: 86.27%MRR: 0.7355
+test using time: 12.000
+--------------------
+Entity Alignment:Hits@1: 63.72%Hits@10: 72.77%Hits@50: 77.77%MRR: 0.6695
+test using time: 84.143
+--------------------
++++++++++++
+Epoch:  12
+get candidate using time: 134.431
+Epoch 12: loss 2089.758, using time 936.001
+Entity Alignment:Hits@1: 69.47%Hits@10: 78.60%Hits@50: 87.00%MRR: 0.7299
+test using time: 11.666
+--------------------
++++++++++++
+Epoch:  13
+get candidate using time: 135.742
+Epoch 13: loss 1873.724, using time 1019.483
+Entity Alignment:Hits@1: 70.27%Hits@10: 79.87%Hits@50: 87.13%MRR: 0.7383
+test using time: 11.645
+--------------------
+Entity Alignment:Hits@1: 63.94%Hits@10: 73.24%Hits@50: 78.48%MRR: 0.6728
+test using time: 84.556
+--------------------
++++++++++++
+Epoch:  14
+get candidate using time: 135.428
+Epoch 14: loss 1916.141, using time 1134.205
+Entity Alignment:Hits@1: 70.53%Hits@10: 78.47%Hits@50: 85.27%MRR: 0.7347
+test using time: 11.446
+--------------------
++++++++++++
+Epoch:  15
+get candidate using time: 133.255
+Epoch 15: loss 1666.039, using time 920.291
+Entity Alignment:Hits@1: 71.13%Hits@10: 80.60%Hits@50: 86.80%MRR: 0.7456
+test using time: 11.684
+--------------------
+Entity Alignment:Hits@1: 64.45%Hits@10: 73.76%Hits@50: 78.98%MRR: 0.6774
+test using time: 84.287
+--------------------
++++++++++++
+Epoch:  16
+get candidate using time: 133.861
+Epoch 16: loss 1739.793, using time 919.589
+Entity Alignment:Hits@1: 70.33%Hits@10: 79.27%Hits@50: 85.73%MRR: 0.7380
+test using time: 12.102
+--------------------
++++++++++++
+Epoch:  17
+get candidate using time: 135.097
+Epoch 17: loss 1408.160, using time 920.287
+Entity Alignment:Hits@1: 70.00%Hits@10: 79.33%Hits@50: 85.40%MRR: 0.7353
+test using time: 11.780
+--------------------
++++++++++++
+Epoch:  18
+get candidate using time: 135.326
+Epoch 18: loss 1479.830, using time 920.683
+Entity Alignment:Hits@1: 71.20%Hits@10: 79.40%Hits@50: 85.40%MRR: 0.7411
+test using time: 11.692
+--------------------
++++++++++++
+Epoch:  19
+get candidate using time: 135.531
+Epoch 19: loss 1225.780, using time 919.598
+Entity Alignment:Hits@1: 69.73%Hits@10: 78.13%Hits@50: 84.00%MRR: 0.7292
+test using time: 11.672
+--------------------
+get entity embedding using time 155.111
+entity embedding shape:  (39654, 300)
+Entity Alignment:Hits@1: 91.90%Hits@10: 97.07%Hits@50: 98.83%MRR: 0.9386
+train_ill test using time: 0.312
+--------------------
+Entity Alignment:Hits@1: 71.13%Hits@10: 80.60%Hits@50: 86.80%MRR: 0.7456
+valid_ill test using time: 0.121
+--------------------
+Entity Alignment:Hits@1: 64.45%Hits@10: 73.76%Hits@50: 78.98%MRR: 0.6774
+test_ill test using time: 2.596
+--------------------
+loading a file...../../data/Openea/D_W_15K_V1/ent_links_id
+loading a file...../../data/Openea/D_W_15K_V1/test_links
+loading a file...../../data/Openea/D_W_15K_V1/train_links
+loading a file...../../data/Openea/D_W_15K_V1/valid_links
+train ILL num: 3000,valid ILL num: 1500, test ILL num: 10500
+train ILL | valid ILL |test ILL num: 15000
+train ILL & valid ILL &test ILL num: 0
+loading a (id2object)file...  ../../data/Openea/D_W_15K_V1/ent_ids_1
+loading a (id2object)file...  ../../data/Openea/D_W_15K_V1/ent_ids_2
+loading a (id2object)file...  ../../data/Openea/D_W_15K_V1/ent_ids_1
+loading a (id2object)file...  ../../data/Openea/D_W_15K_V1/ent_ids_2
+loading attribute triples file from:  ../../data/Openea/D_W_15K_V1/attr_triples_1/2attr
+loading attribute triples file from:  ../../data/Openea/D_W_15K_V1/attr_triples_2/2attr
+In Batch_TrainData_Generator, train ill num: 3000
+In Batch_TrainData_Generator, ent_ids1 num: 15000
+In Batch_TrainData_Generator, ent_ids2 num: 15000
+start training...
+Entity Alignment:Hits@1: 2.62%Hits@10: 4.18%Hits@50: 5.92%MRR: 0.0320
+test using time: 83.095
+--------------------
++++++++++++
+Epoch:  0
+get candidate using time: 135.298
+Epoch 0: loss 11063.450, using time 928.031
+Entity Alignment:Hits@1: 16.13%Hits@10: 31.00%Hits@50: 37.33%MRR: 0.2178
+test using time: 11.694
+--------------------
+Entity Alignment:Hits@1: 9.63%Hits@10: 20.70%Hits@50: 29.51%MRR: 0.1318
+test using time: 84.183
+--------------------
++++++++++++
+Epoch:  1
+get candidate using time: 134.527
+Epoch 1: loss 9956.023, using time 923.656
+Entity Alignment:Hits@1: 19.47%Hits@10: 28.20%Hits@50: 32.73%MRR: 0.2302
+test using time: 11.642
+--------------------
+Entity Alignment:Hits@1: 11.35%Hits@10: 22.27%Hits@50: 26.39%MRR: 0.1484
+test using time: 83.967
+--------------------
++++++++++++
+Epoch:  2
+get candidate using time: 134.511
+Epoch 2: loss 8111.248, using time 924.326
+Entity Alignment:Hits@1: 19.80%Hits@10: 30.53%Hits@50: 36.87%MRR: 0.2388
+test using time: 12.033
+--------------------
+Entity Alignment:Hits@1: 12.19%Hits@10: 23.32%Hits@50: 28.80%MRR: 0.1587
+test using time: 84.377
+--------------------
++++++++++++
+Epoch:  3
+get candidate using time: 135.023
+Epoch 3: loss 7553.474, using time 921.960
+Entity Alignment:Hits@1: 24.33%Hits@10: 29.40%Hits@50: 35.53%MRR: 0.2653
+test using time: 11.920
+--------------------
+Entity Alignment:Hits@1: 19.46%Hits@10: 25.45%Hits@50: 27.89%MRR: 0.2176
+test using time: 84.470
+--------------------
++++++++++++
+Epoch:  4
+get candidate using time: 135.018
+Epoch 4: loss 6315.682, using time 925.120
+Entity Alignment:Hits@1: 22.00%Hits@10: 30.87%Hits@50: 38.53%MRR: 0.2564
+test using time: 12.174
+--------------------
++++++++++++
+Epoch:  5
+get candidate using time: 135.143
+Epoch 5: loss 6137.921, using time 922.813
+Entity Alignment:Hits@1: 24.47%Hits@10: 31.00%Hits@50: 38.93%MRR: 0.2709
+test using time: 11.942
+--------------------
+Entity Alignment:Hits@1: 19.89%Hits@10: 25.76%Hits@50: 28.89%MRR: 0.2205
+test using time: 84.041
+--------------------
++++++++++++
+Epoch:  6
+get candidate using time: 134.688
+Epoch 6: loss 8223.082, using time 922.608
+Entity Alignment:Hits@1: 24.20%Hits@10: 31.67%Hits@50: 38.33%MRR: 0.2726
+test using time: 11.927
+--------------------
+Entity Alignment:Hits@1: 18.09%Hits@10: 26.55%Hits@50: 30.10%MRR: 0.2107
+test using time: 84.246
+--------------------
++++++++++++
+Epoch:  7
+get candidate using time: 134.702
+Epoch 7: loss 5956.600, using time 922.137
+Entity Alignment:Hits@1: 25.80%Hits@10: 31.20%Hits@50: 38.33%MRR: 0.2796
+test using time: 11.939
+--------------------
+Entity Alignment:Hits@1: 21.01%Hits@10: 26.46%Hits@50: 28.94%MRR: 0.2312
+test using time: 84.119
+--------------------
++++++++++++
+Epoch:  8
+get candidate using time: 134.743
+Epoch 8: loss 7679.976, using time 922.441
+Entity Alignment:Hits@1: 25.60%Hits@10: 31.80%Hits@50: 37.40%MRR: 0.2808
+test using time: 11.941
+--------------------
+Entity Alignment:Hits@1: 19.52%Hits@10: 27.24%Hits@50: 30.27%MRR: 0.2229
+test using time: 84.180
+--------------------
++++++++++++
+Epoch:  9
+get candidate using time: 135.080
+Epoch 9: loss 5271.017, using time 921.131
+Entity Alignment:Hits@1: 26.87%Hits@10: 32.33%Hits@50: 38.00%MRR: 0.2914
+test using time: 12.041
+--------------------
+Entity Alignment:Hits@1: 22.52%Hits@10: 28.05%Hits@50: 30.09%MRR: 0.2460
+test using time: 84.972
+--------------------
++++++++++++
+Epoch:  10
+get candidate using time: 134.681
+Epoch 10: loss 7677.307, using time 877.118
+Entity Alignment:Hits@1: 26.53%Hits@10: 32.07%Hits@50: 37.07%MRR: 0.2894
+test using time: 11.862
+--------------------
++++++++++++
+Epoch:  11
+get candidate using time: 134.992
+Epoch 11: loss 6303.712, using time 907.469
+Entity Alignment:Hits@1: 27.40%Hits@10: 32.93%Hits@50: 40.87%MRR: 0.2972
+test using time: 11.829
+--------------------
+Entity Alignment:Hits@1: 23.10%Hits@10: 28.71%Hits@50: 31.34%MRR: 0.2522
+test using time: 84.424
+--------------------
++++++++++++
+Epoch:  12
+get candidate using time: 134.325
+Epoch 12: loss 9384.772, using time 908.351
+Entity Alignment:Hits@1: 27.67%Hits@10: 32.80%Hits@50: 38.67%MRR: 0.2970
+test using time: 11.988
+--------------------
++++++++++++
+Epoch:  13
+get candidate using time: 134.915
+Epoch 13: loss 6351.737, using time 907.552
+Entity Alignment:Hits@1: 27.67%Hits@10: 33.27%Hits@50: 39.87%MRR: 0.3003
+test using time: 11.869
+--------------------
+Entity Alignment:Hits@1: 22.78%Hits@10: 28.52%Hits@50: 31.11%MRR: 0.2511
+test using time: 84.256
+--------------------
++++++++++++
+Epoch:  14
+get candidate using time: 134.498
+Epoch 14: loss 7215.104, using time 907.991
+Entity Alignment:Hits@1: 28.27%Hits@10: 33.80%Hits@50: 41.07%MRR: 0.3048
+test using time: 11.913
+--------------------
+Entity Alignment:Hits@1: 23.42%Hits@10: 28.62%Hits@50: 31.20%MRR: 0.2557
+test using time: 83.401
+--------------------
++++++++++++
+Epoch:  15
+get candidate using time: 134.545
+Epoch 15: loss 6639.801, using time 909.545
+Entity Alignment:Hits@1: 28.07%Hits@10: 33.20%Hits@50: 39.87%MRR: 0.3033
+test using time: 11.745
+--------------------
++++++++++++
+Epoch:  16
+get candidate using time: 135.246
+Epoch 16: loss 6306.018, using time 841.613
+Entity Alignment:Hits@1: 27.93%Hits@10: 32.47%Hits@50: 39.13%MRR: 0.2976
+test using time: 11.689
+--------------------
++++++++++++
+Epoch:  17
+get candidate using time: 134.820
+Epoch 17: loss 6178.375, using time 839.734
+Entity Alignment:Hits@1: 28.00%Hits@10: 32.73%Hits@50: 39.13%MRR: 0.3015
+test using time: 11.670
+--------------------
++++++++++++
+Epoch:  18
+get candidate using time: 134.890
+Epoch 18: loss 5704.327, using time 914.735
+Entity Alignment:Hits@1: 27.27%Hits@10: 32.60%Hits@50: 40.47%MRR: 0.2939
+test using time: 11.535
+--------------------
+get entity embedding using time 114.994
+entity embedding shape:  (30000, 300)
+Entity Alignment:Hits@1: 31.47%Hits@10: 35.63%Hits@50: 41.03%MRR: 0.3335
+train_ill test using time: 0.402
+--------------------
+Entity Alignment:Hits@1: 28.27%Hits@10: 33.80%Hits@50: 41.07%MRR: 0.3048
+valid_ill test using time: 0.131
+--------------------
+Entity Alignment:Hits@1: 23.42%Hits@10: 28.62%Hits@50: 31.20%MRR: 0.2557
+test_ill test using time: 2.415
+--------------------

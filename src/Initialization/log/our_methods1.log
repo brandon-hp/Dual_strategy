@@ -1,0 +1,302 @@
+nohup: ignoring input
+Euclidean
+INFO:root:Using:{args.device}
+INFO:root:Using seed 1234.
+loading a file...../../data/Openea/D_Y_15K_V1/ent_links_id
+loading a file...../../data/Openea/D_Y_15K_V1/test_links
+loading a file...../../data/Openea/D_Y_15K_V1/train_links
+loading a file...../../data/Openea/D_Y_15K_V1/valid_links
+train ILL num: 3000,valid ILL num: 1500, test ILL num: 10500
+train ILL | valid ILL |test ILL num: 15000
+train ILL & valid ILL &test ILL num: 0
+loading a file...../../data/Openea/D_Y_15K_V1/triples_1
+loading a file...../../data/Openea/D_Y_15K_V1/triples_2
+loading a (id2object)file...  ../../data/Openea/D_Y_15K_V1/ent_ids_1
+loading a (id2object)file...  ../../data/Openea/D_Y_15K_V1/ent_ids_2
+loading a (id2object)file...  ../../data/Openea/D_Y_15K_V1/rel_ids_1
+loading a (id2object)file...  ../../data/Openea/D_Y_15K_V1/rel_ids_2
+getting a sparse tensor r_adj...
+/home/huangpeng/syn-master/src/Attribute/load_data.py:13: RuntimeWarning: divide by zero encountered in power
+  r_inv_sqrt = np.power(rowsum, -0.5).flatten()
+/home/huangpeng/syn-master/src/Attribute/load_data.py:26: RuntimeWarning: divide by zero encountered in power
+  r_inv_sqrt = np.power(rowsum, -1).flatten()
+entity:adding the primal init layer
+30000 rows, 300 columns.
+entity:adding the primal init layer
+30000 rows, 300 columns.
+relation:adding the primal init layer
+193 rows, 300 columns.
+relation:adding the primal init layer
+193 rows, 300 columns.
+value:adding the primal init layer
+attribute:adding the primal init layer
+INFO:root:Total number of parameters: {tot_params}
+Euclidean
+INFO:root:BaseModel(
+  (ins_embeddings_a): Embedding(30000, 300, max_norm=1)
+  (rel_embeddings_a): Embedding(387, 300, max_norm=1)
+  (ins_embeddings_n): Embedding(30000, 300, max_norm=1)
+  (rel_embeddings_n): Embedding(387, 300, max_norm=1)
+  (encoder): RREA_adapt(
+    (rrgat0): RelationalReflectionGraphAttentionLayer(
+      (attention_0): SpRelationalReflectionGraphAttentionLayer (600 -> 600)
+    )
+    (hact0): HypAct(
+      c_in=Parameter containing:
+      tensor([1.], requires_grad=True), c_out=Parameter containing:
+      tensor([1.], requires_grad=True)
+    )
+    (rrgat1): RelationalReflectionGraphAttentionLayer(
+      (attention_0): SpRelationalReflectionGraphAttentionLayer (600 -> 600)
+    )
+    (hact1): HypAct(
+      c_in=Parameter containing:
+      tensor([1.], requires_grad=True), c_out=Parameter containing:
+      tensor([1.], requires_grad=True)
+    )
+  )
+  (decoder): RREA_adapt()
+)
+ins_embeddings_a.weight
+rel_embeddings_a.weight
+ins_embeddings_n.weight
+rel_embeddings_n.weight
+encoder.rrgat0.curvature
+encoder.rrgat0.attention_0.a
+encoder.hact0.c_out
+encoder.rrgat1.attention_0.a
+encoder.hact1.c_out
+Train Entity Alignment:Hits@1: 100.00%Hits@10: 100.00%Hits@50: 100.00%MRR: 1.0000
+Valid Entity Alignment:Hits@1: 100.00%Hits@10: 100.00%Hits@50: 100.00%MRR: 1.0000
+Test Entity Alignment:Hits@1: 99.98%Hits@10: 100.00%Hits@50: 100.00%MRR: 0.9998
+start training...
+######################## epoch:  0  ###########################
+Valid Entity Alignment:Hits@1: 100.00%MRR: 1.0000
+Test Entity Alignment:Hits@1: 99.98%Hits@10: 100.00%Hits@50: 100.00%MRR: 0.9999
+Test Entity Alignment:Hits@1: 99.98%Hits@10: 100.00%Hits@50: 100.00%MRR: 0.9999
+######################## epoch:  1  ###########################
+Valid Entity Alignment:Hits@1: 100.00%MRR: 1.0000
+Test Entity Alignment:Hits@1: 99.98%Hits@10: 100.00%Hits@50: 100.00%MRR: 0.9999
+######################## epoch:  2  ###########################
+Valid Entity Alignment:Hits@1: 100.00%MRR: 1.0000
+Test Entity Alignment:Hits@1: 99.98%Hits@10: 100.00%Hits@50: 100.00%MRR: 0.9999
+######################## epoch:  3  ###########################
+Valid Entity Alignment:Hits@1: 100.00%MRR: 1.0000
+Test Entity Alignment:Hits@1: 99.98%Hits@10: 100.00%Hits@50: 100.00%MRR: 0.9999
+######################## epoch:  4  ###########################
+Valid Entity Alignment:Hits@1: 100.00%MRR: 1.0000
+Test Entity Alignment:Hits@1: 99.99%Hits@10: 100.00%Hits@50: 100.00%MRR: 0.9999
+Train Entity Alignment:Hits@1: 100.00%Hits@10: 100.00%Hits@50: 100.00%MRR: 1.0000
+Valid Entity Alignment:Hits@1: 100.00%Hits@10: 100.00%Hits@50: 100.00%MRR: 1.0000
+Test Entity Alignment:Hits@1: 99.98%Hits@10: 100.00%Hits@50: 100.00%MRR: 0.9999
+entity_pair (e1,e2) num is: 750000
+False False
+INFO:root:Using:{args.device}
+INFO:root:Using seed 1234.
+loading a file...../../data/Openea/EN_DE_100K_V1/ent_links_id
+loading a file...../../data/Openea/EN_DE_100K_V1/test_links
+loading a file...../../data/Openea/EN_DE_100K_V1/train_links
+loading a file...../../data/Openea/EN_DE_100K_V1/valid_links
+train ILL num: 20000,valid ILL num: 10000, test ILL num: 70000
+train ILL | valid ILL |test ILL num: 100000
+train ILL & valid ILL &test ILL num: 0
+loading a file...../../data/Openea/EN_DE_100K_V1/triples_1
+loading a file...../../data/Openea/EN_DE_100K_V1/triples_2
+loading a (id2object)file...  ../../data/Openea/EN_DE_100K_V1/ent_ids_1
+loading a (id2object)file...  ../../data/Openea/EN_DE_100K_V1/ent_ids_2
+loading a (id2object)file...  ../../data/Openea/EN_DE_100K_V1/rel_ids_1
+loading a (id2object)file...  ../../data/Openea/EN_DE_100K_V1/rel_ids_2
+getting a sparse tensor r_adj...
+entity:adding the primal init layer
+200000 rows, 300 columns.
+entity:adding the primal init layer
+200000 rows, 300 columns.
+relation:adding the primal init layer
+410 rows, 300 columns.
+relation:adding the primal init layer
+410 rows, 300 columns.
+value:adding the primal init layer
+attribute:adding the primal init layer
+INFO:root:Total number of parameters: {tot_params}
+Euclidean
+INFO:root:BaseModel(
+  (ins_embeddings_a): Embedding(200000, 300, max_norm=1)
+  (rel_embeddings_a): Embedding(821, 300, max_norm=1)
+  (ins_embeddings_n): Embedding(200000, 300, max_norm=1)
+  (rel_embeddings_n): Embedding(821, 300, max_norm=1)
+  (encoder): RREA_adapt(
+    (rrgat0): RelationalReflectionGraphAttentionLayer(
+      (attention_0): SpRelationalReflectionGraphAttentionLayer (600 -> 600)
+    )
+    (hact0): HypAct(
+      c_in=Parameter containing:
+      tensor([1.], requires_grad=True), c_out=Parameter containing:
+      tensor([1.], requires_grad=True)
+    )
+    (rrgat1): RelationalReflectionGraphAttentionLayer(
+      (attention_0): SpRelationalReflectionGraphAttentionLayer (600 -> 600)
+    )
+    (hact1): HypAct(
+      c_in=Parameter containing:
+      tensor([1.], requires_grad=True), c_out=Parameter containing:
+      tensor([1.], requires_grad=True)
+    )
+  )
+  (decoder): RREA_adapt()
+)
+ins_embeddings_a.weight
+rel_embeddings_a.weight
+ins_embeddings_n.weight
+rel_embeddings_n.weight
+encoder.rrgat0.curvature
+encoder.rrgat0.attention_0.a
+encoder.hact0.c_out
+encoder.rrgat1.attention_0.a
+encoder.hact1.c_out
+Train Entity Alignment:Hits@1: 99.88%Hits@10: 100.00%Hits@50: 100.00%MRR: 0.9994
+Valid Entity Alignment:Hits@1: 94.89%Hits@10: 96.78%Hits@50: 97.93%MRR: 0.9559
+Test Entity Alignment:Hits@1: 93.77%Hits@10: 95.99%Hits@50: 96.85%MRR: 0.9463
+start training...
+######################## epoch:  0  ###########################
+Valid Entity Alignment:Hits@1: 94.96%MRR: 0.9566
+Test Entity Alignment:Hits@1: 93.84%Hits@10: 96.03%Hits@50: 96.91%MRR: 0.9469
+Test Entity Alignment:Hits@1: 93.84%Hits@10: 96.03%Hits@50: 96.91%MRR: 0.9469
+######################## epoch:  1  ###########################
+nohup: ignoring input
+Euclidean
+INFO:root:Using:{args.device}
+INFO:root:Using seed 1234.
+loading a file...../../data/Openea/EN_FR_100K_V1/ent_links_id
+loading a file...../../data/Openea/EN_FR_100K_V1/test_links
+loading a file...../../data/Openea/EN_FR_100K_V1/train_links
+loading a file...../../data/Openea/EN_FR_100K_V1/valid_links
+train ILL num: 20000,valid ILL num: 10000, test ILL num: 70000
+train ILL | valid ILL |test ILL num: 100000
+train ILL & valid ILL &test ILL num: 0
+loading a file...../../data/Openea/EN_FR_100K_V1/triples_1
+loading a file...../../data/Openea/EN_FR_100K_V1/triples_2
+loading a (id2object)file...  ../../data/Openea/EN_FR_100K_V1/ent_ids_1
+loading a (id2object)file...  ../../data/Openea/EN_FR_100K_V1/ent_ids_2
+loading a (id2object)file...  ../../data/Openea/EN_FR_100K_V1/rel_ids_1
+loading a (id2object)file...  ../../data/Openea/EN_FR_100K_V1/rel_ids_2
+getting a sparse tensor r_adj...
+/home/huangpeng/syn-master/src/Attribute/load_data.py:13: RuntimeWarning: divide by zero encountered in power
+  r_inv_sqrt = np.power(rowsum, -0.5).flatten()
+/home/huangpeng/syn-master/src/Attribute/load_data.py:26: RuntimeWarning: divide by zero encountered in power
+  r_inv_sqrt = np.power(rowsum, -1).flatten()
+entity:adding the primal init layer
+200000 rows, 300 columns.
+entity:adding the primal init layer
+200000 rows, 300 columns.
+relation:adding the primal init layer
+516 rows, 300 columns.
+relation:adding the primal init layer
+516 rows, 300 columns.
+value:adding the primal init layer
+attribute:adding the primal init layer
+INFO:root:Total number of parameters: {tot_params}
+Euclidean
+INFO:root:BaseModel(
+  (ins_embeddings_a): Embedding(200000, 300, max_norm=1)
+  (rel_embeddings_a): Embedding(1033, 300, max_norm=1)
+  (ins_embeddings_n): Embedding(200000, 300, max_norm=1)
+  (rel_embeddings_n): Embedding(1033, 300, max_norm=1)
+  (encoder): RREA_adapt(
+    (rrgat0): RelationalReflectionGraphAttentionLayer(
+      (attention_0): SpRelationalReflectionGraphAttentionLayer (600 -> 600)
+    )
+    (hact0): HypAct(
+      c_in=Parameter containing:
+      tensor([1.], requires_grad=True), c_out=Parameter containing:
+      tensor([1.], requires_grad=True)
+    )
+    (rrgat1): RelationalReflectionGraphAttentionLayer(
+      (attention_0): SpRelationalReflectionGraphAttentionLayer (600 -> 600)
+    )
+    (hact1): HypAct(
+      c_in=Parameter containing:
+      tensor([1.], requires_grad=True), c_out=Parameter containing:
+      tensor([1.], requires_grad=True)
+    )
+  )
+  (decoder): RREA_adapt()
+)
+ins_embeddings_a.weight
+rel_embeddings_a.weight
+ins_embeddings_n.weight
+rel_embeddings_n.weight
+encoder.rrgat0.curvature
+encoder.rrgat0.attention_0.a
+encoder.hact0.c_out
+encoder.rrgat1.attention_0.a
+encoder.hact1.c_out
+Train Entity Alignment:Valid Entity Alignment:Test Entity Alignment:start training...
+######################## epoch:  0  ###########################
+Valid Entity Alignment:Hits@1: 97.29%MRR: 0.9775
+######################## epoch:  1  ###########################
+Valid Entity Alignment:Hits@1: 97.34%MRR: 0.9779
+######################## epoch:  2  ###########################
+Valid Entity Alignment:Hits@1: 97.36%MRR: 0.9782
+######################## epoch:  3  ###########################
+Valid Entity Alignment:Hits@1: 97.41%MRR: 0.9786
+######################## epoch:  4  ###########################
+Valid Entity Alignment:Hits@1: 97.46%MRR: 0.9790
+######################## epoch:  5  ###########################
+Valid Entity Alignment:Hits@1: 97.48%MRR: 0.9793
+######################## epoch:  6  ###########################
+Valid Entity Alignment:Hits@1: 97.52%MRR: 0.9796
+######################## epoch:  7  ###########################
+Valid Entity Alignment:Hits@1: 97.59%MRR: 0.9801
+######################## epoch:  8  ###########################
+Valid Entity Alignment:Hits@1: 97.62%MRR: 0.9803
+######################## epoch:  9  ###########################
+Valid Entity Alignment:Hits@1: 97.64%MRR: 0.9805
+######################## epoch:  10  ###########################
+Valid Entity Alignment:Hits@1: 97.67%MRR: 0.9808
+######################## epoch:  11  ###########################
+Valid Entity Alignment:Hits@1: 97.67%MRR: 0.9809
+######################## epoch:  12  ###########################
+Valid Entity Alignment:Hits@1: 97.69%MRR: 0.9811
+######################## epoch:  13  ###########################
+Valid Entity Alignment:Hits@1: 97.69%MRR: 0.9812
+######################## epoch:  14  ###########################
+Valid Entity Alignment:Hits@1: 97.70%MRR: 0.9813
+######################## epoch:  15  ###########################
+Valid Entity Alignment:Hits@1: 97.71%MRR: 0.9814
+######################## epoch:  16  ###########################
+Valid Entity Alignment:Hits@1: 97.70%MRR: 0.9814
+######################## epoch:  17  ###########################
+Valid Entity Alignment:Hits@1: 97.72%MRR: 0.9816
+######################## epoch:  18  ###########################
+Valid Entity Alignment:Hits@1: 97.72%MRR: 0.9816
+######################## epoch:  19  ###########################
+Valid Entity Alignment:Hits@1: 97.72%MRR: 0.9816
+######################## epoch:  20  ###########################
+Valid Entity Alignment:Hits@1: 97.74%MRR: 0.9817
+######################## epoch:  21  ###########################
+Valid Entity Alignment:Hits@1: 97.72%MRR: 0.9817
+######################## epoch:  22  ###########################
+Valid Entity Alignment:Hits@1: 97.72%MRR: 0.9817
+######################## epoch:  23  ###########################
+Valid Entity Alignment:Hits@1: 97.76%MRR: 0.9819
+######################## epoch:  24  ###########################
+Valid Entity Alignment:Hits@1: 97.77%MRR: 0.9820
+######################## epoch:  25  ###########################
+Valid Entity Alignment:Hits@1: 97.77%MRR: 0.9820
+######################## epoch:  26  ###########################
+Valid Entity Alignment:Hits@1: 97.77%MRR: 0.9820
+######################## epoch:  27  ###########################
+Valid Entity Alignment:Hits@1: 97.78%MRR: 0.9820
+######################## epoch:  28  ###########################
+Valid Entity Alignment:Hits@1: 97.76%MRR: 0.9819
+######################## epoch:  29  ###########################
+Valid Entity Alignment:Hits@1: 97.76%MRR: 0.9819
+######################## epoch:  30  ###########################
+Valid Entity Alignment:Hits@1: 97.77%MRR: 0.9820
+######################## epoch:  31  ###########################
+Valid Entity Alignment:Hits@1: 97.77%MRR: 0.9820
+Train Entity Alignment:Hits@1: 100.00%Hits@10: 100.00%Hits@50: 100.00%MRR: 1.0000
+Valid Entity Alignment:Hits@1: 97.78%Hits@10: 98.93%Hits@50: 99.31%MRR: 0.9820
+Test Entity Alignment:Hits@1: 96.41%Hits@10: 98.48%Hits@50: 99.00%MRR: 0.9722
+entity_pair (e1,e2) num is: 5000000
+False False
