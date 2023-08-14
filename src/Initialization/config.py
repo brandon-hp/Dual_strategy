@@ -18,13 +18,13 @@ config_args = {
 
     },
     'model_config': { 
-        'model': ('SDEA', 'orign,SDEA_numb,SDEA_noN,word-based,bert_int_name,bert_int_des,SDEA,bert_all,bert_mix'), #################
+        'model': ('bert_int_des', 'orign,SDEA_numb,SDEA_noN,word-based,bert_int_name,bert_int_des,SDEA,bert_all,bert_mix'), #################
         'bert_type':(['GPT','SDEA_noN','SDEA_numb','bert_int_des','SDEA','bert_all','bert_mix','bert_int_name'],''),
         'is_load_BERT': (False, ''),
         'input_dim': (768, 'embedding dimension,768,1536'), ##############MODEL_INPUT_DIM  = 768MODEL_OUTPUT_DIM = 300
         'output_dim':(300,''),
         'bert_path':('../../bert-base/bert-base-multilingual-cased','bert-base-multilingual-cased'),
-        'data_type': ('attribute', 'relation,entity,attribute'),
+        'data_type': ('entity', 'relation,entity,attribute'),
 
     },
     'data_config': {
