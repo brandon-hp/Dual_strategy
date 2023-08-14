@@ -96,7 +96,7 @@ config_args_RREA_literal = {
         'dim': (300, 'layer dimension'), ##############
         'manifold': ('Euclidean', 'which manifold to use, can be any of [Euclidean, Hyperboloid, PoincareBall]'), ##################
         'c': (None, 'hyperbolic radius, set to None for trainable curvature'), ###################
-        'num-layers': (1, 'number of layers in encoder'),
+        'num-layers': (2, 'number of layers in encoder'),
         'bias': (0, 'whether to use bias (1) or not (0)'),
         'act': ('relu', 'which activation function to use (or None for no activation)'),
         'n_heads': (1, 'number of attention heads for graph attention networks, must be a divisor dim'),
@@ -107,12 +107,12 @@ config_args_RREA_literal = {
         'swap': (False, ''),
         'multi_hop':('concat','concat,hgate'),
         'ent_vec_path_n':('init_entity_embedding_bert_int_name.p',''),
-        'ent_vec_path_a': ('init_entity_embedding_SDEA_noN.p', ''),
+        'ent_vec_path_a': ('init_entity_embedding_SDEA.p', ''),
         'rel_vec_path_n':('init_relation_embedding_bert_int_des.p',''),
-        'rel_vec_path_a': ('init_relation_embedding_SDEA_noN.p', ''),
+        'rel_vec_path_a': ('init_relation_embedding_SDEA.p', ''),
         'val_vec_path': ('random', ''),
         'att_vec_path': ('random', ''),
-        'vec_type': ('a', ''),
+        'vec_type': ('hybrid_cat', ''),
         'use_att': (0, 'whether to use hyperbolic attention or not'),
         'use_w': (False, 'whether to use hyperbolic attention or not'),
         'local_agg': (0, 'whether to local tangent space aggregation or not'),
@@ -124,7 +124,7 @@ config_args_RREA_literal = {
     'data_config': {
         'dataset': ('DBP15k', 'which dataset to use,ea use DBP15k'),
         'lang':('zh_en','[ja_en,ja_en,fr_en]'), #############
-        'entity_pairs_path': ('entity_pairs_noN', '[bert_int_entity_pairs,entity_pairs]'),
+        'entity_pairs_path': ('bert_int_entity_pairs', '[bert_int_entity_pairs,entity_pairs]'),
         'k':(125,'number of negative samples for each positive one'),
         'transe_k':(20,'number of negative samples for each positive one'),
         'normalize_feats': (True, 'whether to normalize input node features'),
@@ -603,5 +603,5 @@ config_args_ROADEA = {
     }
 }
 parser = argparse.ArgumentParser()
-for _, config_dict in config_args_BERT_INT_ALL.items():
+for _, config_dict in config_args_RREA_literal.items():
     parser = add_flags_from_config(parser, config_dict)
