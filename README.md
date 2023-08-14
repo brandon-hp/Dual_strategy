@@ -70,6 +70,11 @@ Dual_strategy/
 │   │   ├── tokenizer.json
 │   │   ├── tokenizer_config.json
 │   │   ├── vocab.txt
+├── save_data/: save intermediate data
+│   ├── DBP15k/:
+│   │   ├── fr_en/
+│   │   ├── ja_en/
+│   │   ├── zh_en/
 │   ├── ......
 ```
 
